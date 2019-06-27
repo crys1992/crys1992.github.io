@@ -194,8 +194,8 @@ function init() {
   // for the shadow
   directionalLight = new THREE.DirectionalLight();
   // @TODO in the future, use AR light estimation
-  directionalLight.intensity = 0.3;
-  directionalLight.position.set(10, 15, 10);
+  directionalLight.intensity = 0.5;
+  directionalLight.position.set(10, 30, 10);
   // We want this light to cast shadow
   directionalLight.castShadow = true;
   light = new THREE.AmbientLight();
@@ -211,7 +211,7 @@ function init() {
   // that only renders shadows once we flip the `receiveShadow` property
   shadowMesh = new THREE.Mesh(planeGeometry, new THREE.ShadowMaterial({
     color: 0x111111,
-    opacity: 0.15,
+    opacity: 0.33,
   }));
   shadowMesh.receiveShadow = true;
   scene.add(shadowMesh);

@@ -10,8 +10,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 9
-map_Kd /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Embers.png
-map_d /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Embers.png
+map_Kd Embers.png
+map_d Embers.png
 
 newmtl 0eb4db273f82408db5a119ebd7d5b711_Stars
 Ns 94.117647
@@ -22,8 +22,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 9
-map_Kd /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Stars.png
-map_d /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Stars.png
+map_Kd Stars.png
+map_d Stars.png
 
 newmtl 5347acf0a8e247b6834630c70719d763_WigglyGraphite
 Ns 94.117647
@@ -34,8 +34,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 9
-map_Kd /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/WigglyGraphite.png
-map_d /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/WigglyGraphite.png
+map_Kd WigglyGraphite.png
+map_d WigglyGraphite.png
 
 newmtl f1114e2eeb8d4fde915a6e653b54e9f5_Paper
 Ns 94.117647
@@ -46,5 +46,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 9
-map_Kd /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Paper.png
-map_d /Users/cwang/Documents/Github/crys1992.github.io/examples/assets/Paper.png
+map_Kd Paper.png
+map_d Paper.png

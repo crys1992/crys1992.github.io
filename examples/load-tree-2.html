@@ -93,7 +93,7 @@
   <div class="sizer_container">
     <div id="smaller" class="sizer"> - </div>
     <div id="larger" class="sizer"> + </div>
-    <div id="scale_val"></div>
+    <div id="scale_val">SCALE: 0.5</div>
   </div>
 
 </div>
@@ -335,13 +335,13 @@ function onClick (e) {
       $("#smaller").click(function(){
         SCALE -= 0.05;
         if(SCALE<=0.05){SCALE=0.05;}
-    //    $("#scale_val").html('SCALE: '+SCALE);
+        $("#scale_val").html('SCALE: '+SCALE);
         model.scale.set(SCALE, SCALE, SCALE);
       });
       $("#larger").click(function(){
         SCALE += 0.05;
         if(SCALE>=5){SCALE=5;}
-   //     $("#scale_val").html('SCALE: '+SCALE);
+        $("#scale_val").html('SCALE: '+SCALE);
         model.scale.set(SCALE, SCALE, SCALE);
       });
 

@@ -89,7 +89,7 @@
 </head>
 <body>
 <div id="info">
-  <span class="title">AR Metrocard Tree by Fuzzy and Crystal.</span><br/>
+  <span class="title">"The Big Wow" — Children's Museum of Manhattan.</span><br/>
   <div class="sizer_container">
     <div id="smaller" class="sizer"> - </div>
     <div id="larger" class="sizer"> + </div>
@@ -221,7 +221,7 @@ function init() {
 
 
 
-const API_KEY = '*** INSERT YOUR API KEY HERE ***'; //!!! add your key from https://developers.google.com/poly/develop/api 
+const API_KEY = 'AIzaSyBm2drYgZC0TIi_4MeAJixq5ZQ85nHOdfg'; //!!! add your key from https://developers.google.com/poly/develop/api 
 
 var model2;
 

@@ -239,8 +239,8 @@ function loadAsset( id ) {
   request.open( 'GET', url, true );
   request.addEventListener( 'load', function ( event ) {
     var asset = JSON.parse( event.target.response );
-    asset_name.textContent = asset.displayName;
-    asset_author.textContent = asset.authorName;
+ //   asset_name.textContent = asset.displayName;
+  //  asset_author.textContent = asset.authorName;
     var format = asset.formats.find( format => { return format.formatType === 'GLTF'; } );
     if ( format !== undefined ) {
       var url = format.root.url;
